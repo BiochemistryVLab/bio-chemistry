@@ -96,12 +96,11 @@
     <div style="padding-top: 10px" class="row">
       <div class="col-2">
         <ul>
-          <li><a class="active" href="#">Appratus Menu</a></li>
+          <li><a class="active" href="#">Appratus Required</a></li>
           <li>
             <button
               class="button"
-              style="margin: 5px"
-              onclick="myFunction(show)"
+              style="margin: 5px"              
             >
               Beaker
             </button>
@@ -109,8 +108,7 @@
           <li>
             <button
               class="button"
-              style="margin: 5px"
-              onclick="myFunction1(show1)"
+              style="margin: 5px"             
             >
               Petri dish
             </button>
@@ -118,8 +116,7 @@
           <li>
             <button
               class="button"
-              style="margin: 5px"
-              onclick="myFunction2(show2)"
+              style="margin: 5px"              
             >
               Weigh Machine
             </button>
@@ -127,8 +124,7 @@
           <li>
             <button
               class="button"
-              style="margin: 5px"
-              onclick="myFunction3(show3)"
+              style="margin: 5px"              
             >
               Distilled Water
             </button>
@@ -137,6 +133,27 @@
       </div>
        -->
     <!-- <div class="equipment">
+      <div class="col-9">
+        <div id="BufferSolution" style="position: relative; height: 80%;"></div>
+    <script type="text/javascript">
+      (function (Saola) {
+        var li = {
+          color: "#2090e6",
+          density: 14,
+          diameter: 248,
+          range: 1,
+          shape: "spiral",
+          speed: 3,
+        };
+        Saola.openDoc("Buffer Solution.js", "BufferSolution", {
+          paused: false,
+          preloaderOptions: li,
+          center: "horizontal",
+          autofit: true,
+        });
+      })(AtomiSaola);
+    </script>
+        <!-- <div class="equipment">
 				<div class="row">
 					<div >
 						<div class="grid-container">
